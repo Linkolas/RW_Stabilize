@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<JobDef>
+		<defName>StabilizeHere</defName>
+		<driverClass>Stabilize.JobDriver_StabilizeHere</driverClass>
+		<reportString>stabilizing TargetA.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+<!--
+	<WorkGiverDef>
+		<defName>DoctorStabilizeHere</defName>
+		<label>stabilize patients right where they are</label>
+		<giverClass>WorkGiver_StabilizeHere</giverClass>
+		<workType>Doctor</workType>
+		<emergency>true</emergency>
+		<verb>stabilizing</verb>
+		<gerund>stabilizing</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<priorityInType>110</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+-->
+</Defs>

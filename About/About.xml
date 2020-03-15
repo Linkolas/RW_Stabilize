@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Stabilize</name>
+	<author>Linkolas</author>
+	<packageId>Linkolas.Stabilize</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<url>https://github.com/Linkolas/RW_Stabilize</url>
+	<description>
+Lets you tend to downed pawns right where they are instead of taking them to beds.
+A true lifesaver :)
+	</description>
+</ModMetaData>
