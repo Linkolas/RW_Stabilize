@@ -33,6 +33,10 @@ namespace Stabilize
 
                     Pawn target = (Pawn) localTargetInfo.Thing;
 
+                    if(!target.health.HasHediffsNeedingTend()) {
+                        continue;
+                    }
+
                     if(!pawn.CanReserveAndReach(target, PathEndMode.OnCell, Danger.Deadly, 1, -1, null, true)) {
                         // TODO: Add grayed out message
                         continue;

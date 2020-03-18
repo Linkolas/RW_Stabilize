@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Title>Stabilize Here</Title>
+  <Excluded>
+    <exclude>A:\Steam\steamapps\common\RimWorld\Mods\Stabilize\.git</exclude>
+    <exclude>A:\Steam\steamapps\common\RimWorld\Mods\Stabilize\Source</exclude>
+  </Excluded>
+</Configuration>
