@@ -29,7 +29,7 @@ namespace Stabilize
                     return;
                 }
 
-                foreach (LocalTargetInfo localTargetInfo in GenUI.TargetsAt(clickPos, TargetingParameters.ForRescue(pawn), true)) {
+                foreach (LocalTargetInfo localTargetInfo in GenUI.TargetsAt_NewTemp(clickPos, TargetingParameters.ForRescue(pawn), true)) {
 
                     Pawn target = (Pawn) localTargetInfo.Thing;
 
